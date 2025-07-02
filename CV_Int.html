@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEEUBqp0ughl1fLSdn1dQf1kswfQvnjwsqqw&s">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vedang Desai - CV</title>
+  <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEEUBqp0ughl1fLSdn1dQf1kswfQvnjwsqqw&s" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <a href="#" class="logo">My Curriculum Vitae (CV)</a>
-            <button class="nav-toggle" id="navToggle">☰</button>
-        </div>
-        <nav class="nav" id="navMenu">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#download" download>Download PDF</a></li>
-            </ul>
-        </nav>
-    </header>   
 
-<!--ABOUT-->
-
-<section id="about" class="section">
-    
-        <div class="container" data-aos="fade-up">
-            <h2 class="title">About</h2>
-            <img src="\Images\PSP.jpg" alt="Profile img" class="profile-pic">
-            <h1>Vedang Desai</h1>
-            <p> Description </p>
-            <p> Junior Developer |  XXXX@gmail.com | +91-999-XXXX-000</p>
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">My Curriculum Vitae (CV)</a>
+      <button class="nav-toggle" id="navToggle">☰</button>
     </div>
-</section>
+    <nav class="nav" id="navMenu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="cv.pdf" download>Download PDF</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!--SKILLS-->
-<section id="skills" class="section bg-light">
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container" data-aos="fade-up">
+      <h2 class="title">About</h2>
+      <img src="Images/PSP.jpg" alt="Profile Picture" class="profile-pic" />
+      <h1>Vedang Desai</h1>
+      <p>Description</p>
+      <p>Junior Developer | XXXX@gmail.com | +91-999-XXXX-000</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section bg-light">
     <div class="container">
-        <h2 data-aos="fade-right">
-            Skills</h2>
-        <div class="skills-grid"></div>
-    </div>
-<div class="skill" data-aos="fade-up" style="--percent:90%">
+      <h2 data-aos="fade-right">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill" data-aos="fade-up" style="--percent:90%">
           <span class="skill__name">HTML/CSS</span>
           <div class="skill__bar"><div class="skill__fill"></div></div>
         </div>
@@ -67,74 +64,94 @@
     </div>
   </section>
 
-  <!--EXPERIENCE-->
-
+  <!-- EXPERIENCE -->
   <section id="experience" class="section">
     <div class="container" data-aos="fade-up">
-        <h2>Experience</h2>
-        <div class="timeline">
-        <div class="timeline-items">
-            <h3>Junior Developer</h3>
-            <span>SPCL Infotech PVT.</span><br>
-            <p>Working as an intern for a duration of 2 months developing websites projects with HTML,CSS & Javascript.<br>(Currently as of 27th June)</p>
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Junior Developer</h3>
+          <span>SPCL Infotech PVT.</span>
+          <p>Interning for 2 months developing website projects using HTML, CSS, and JavaScript. (Currently as of 27th June)</p>
         </div>
-        <div class="timeline-items">
-            <h3><span>Company Name</span></h3>
-            <p>Worked In (-Company Name-) for a duration of 2 months developing websites projects with HTML,CSS & Javascript.<br></p>
+        <div class="timeline-item">
+          <h3>Company Name</h3>
+          <p>Worked for 2 months building websites with HTML, CSS &amp; JavaScript.</p>
         </div>
-        </div>
+      </div>
     </div>
   </section>
 
-<!--MY PROJECTS-->
+  <!-- PROJECTS -->
   <section id="projects" class="section">
     <div class="container">
       <h2 data-aos="fade-right">Projects</h2>
       <div class="projects-grid">
-        <a href="https://github.com/Vidarr22/First-Bite" target="_blank" class="project-card" data-aos="zoom-in" title="A React dashboard with real-time charts">
+        <a href="https://github.com/Vidarr22/First-Bite" target="_blank" class="project-card" data-aos="zoom-in" title="Food Website Project">
           <h3>First-Bite</h3>
           <p>Food Website</p>
-          <p>Tools used · HTML · CSS · Javascript </p>
+          <p>Tools used · HTML · CSS · JavaScript</p>
         </a>
-        <a href="https://github.com/Vidarr22/Rev-Up-Motors" target="_blank" class="project-card" data-aos="zoom-in" title="A Node.js API with JWT auth">
+        <a href="https://github.com/Vidarr22/Rev-Up-Motors" target="_blank" class="project-card" data-aos="zoom-in" title="Used Car Sales Website">
           <h3>REV-UP Motors</h3>
           <p>Used Car Sales Website</p>
-          <p>Tools used · HTML · CSS · Javascript </p>
+          <p>Tools used · HTML · CSS · JavaScript</p>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- MY EDUCATION -->
+  <!-- EDUCATION -->
   <section id="education" class="section bg-light">
     <div class="container" data-aos="fade-up">
       <h2>Education</h2>
       <div class="timeline">
         <div class="timeline-item">
-          <h3>Integreated B.Tech Computer Science</h3>
+          <h3>Integrated B.Tech in Computer Science</h3>
           <span>University of Pune (2023–2029)</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!--CONTACT-->
+  <!-- CONTACT -->
   <section id="contact" class="section bg-light">
     <div class="container" data-aos="fade-up">
       <h2>Contact Me</h2>
       <form class="contact-form">
-        <input type="text" placeholder="Name" required/>
-        <input type="email" placeholder="Email" required/>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
         <textarea rows="5" placeholder="Message" required></textarea>
         <button type="submit">Send</button>
       </form>
     </div>
   </section>
 
-<script src="js.js"></script>
+  <!-- Scripts -->
+  <script src="js.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+
+    const navToggle = document.getElementById("navToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    navToggle.addEventListener("click", () => {
+      navMenu.style.display = navMenu.style.display === "flex" ? "none" : "flex";
+    });
+
+    document.querySelectorAll(".nav a[href^='#']").forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute("href"));
+        if (!target) return;
+        window.scrollTo({
+          top: target.offsetTop - 80,
+          behavior: "smooth",
+        });
+        if (window.innerWidth < 769) navMenu.style.display = "none";
+      });
+    });
   </script>
 </body>
 </html>
