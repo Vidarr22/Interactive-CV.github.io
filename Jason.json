@@ -1,0 +1,16 @@
+{
+  "name": "my-cv",
+  "version": "1.0.0",
+  "description": "Vedang Desai's Portfolio / CV Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'No build step required for static site.'"
+  },
+  "author": "Vedang Desai",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
